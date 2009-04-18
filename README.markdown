@@ -25,7 +25,7 @@ Add another URL to format and configure your chart:
   
 And out comes a beautiful Flash graphic/animation displaying your data.
 
-Something like this already exists ==> [http://pullmonkey.com/projects/open_flash_chart2]
+Something like this already exists. It's called [Open Flash Chart](http://pullmonkey.com/projects/open_flash_chart2)
 
 But if Fala is to be a playground for data visualization, basic bar-and-line charts won't 
 cut it.
