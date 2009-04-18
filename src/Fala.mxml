@@ -21,12 +21,17 @@
    		private var datesCollection:ArrayCollection;
    		
    		[Bindable]
-   		public var datasourceURL:String;
+   		public var dataURL:String;
+   		[Bindable]
+   		public var configURL:String;
    		
 
    		private function init():void {
-   			datasourceURL = Application.application.parameters.datasourceURL;
+   			dataURL = Application.application.parameters.dataURL;
    			dataSource.send();
+   			
+   			configURL = Application.application.parameters.configURL;
+   			//configSource.send();
    		}
    	
    		private function dateFilter(date:Date, index:int, array:Array):Boolean {
@@ -59,7 +64,7 @@
    <mx:DateFormatter id="df" formatString="MMM YYYY" />
    
    <mx:HTTPService id="dataSource" 
-   	url="{datasourceURL}"
+   	url="{dataURL}"
    	useProxy="false" method="GET" resultFormat="text" result="dataJSON(event)">
    </mx:HTTPService>
    
