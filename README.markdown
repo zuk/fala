@@ -37,7 +37,7 @@ So a half-baked project that in all likelyhood will go nowhere begins.
 You have here a bunch of MXML and ActionScript source. You want to compile all this into a 
 Flash SWF file (Fala.swf).
 
-The easy way is to import the project into Adobe Flex 3, and the Fala.swf file should get built 
+The easy way is to import the project into Adobe Flex 3. Once you have the project set up in Flex, the Fala.swf file should be built for you 
 automagically into the bin-dedbug subdirectory.
 
 The hard way is to do it through the free-and-open-source Flex SDK, in which case you will need 
